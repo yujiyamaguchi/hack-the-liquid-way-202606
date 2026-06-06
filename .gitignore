@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# モデルウェイト・チェックポイント（248GB）→ HF Hub
+checkpoints/
+
+# 学習データ（音声・テキストデータは除外、準備スクリプトは含む）→ HF Hub
+data/*
+!data/*.py
+
+# W&B・実験ログ
+wandb/
+logs/
+*.log
+results*.json
+
+# デモ資産ドラフト
+TeamYamaguchi_Track2_HackTheLiquidWAY_DemoAssets/slides_draft.md
