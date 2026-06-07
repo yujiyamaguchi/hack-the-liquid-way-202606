@@ -21,6 +21,12 @@ wandb/
 logs/
 *.log
 results*.json
+*_results.jsonl
+eval_*_results/
+sanity_check_tts_audio/
 
 # デモ資産ドラフト
 TeamYamaguchi_Track2_HackTheLiquidWAY_DemoAssets/slides_draft.md
+
+# Claude Code ローカル状態
+.claude/
